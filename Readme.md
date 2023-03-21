@@ -6,7 +6,7 @@ This is a demo which can works in raspberry pi
 This has been moved to resperipi. And can work properly.
 
 ~~~text
-1. include<gpio.h>
+1. include<pigpio.h>
 2. switch -----
 ~~~
 
@@ -22,8 +22,8 @@ make
 
 remember that in switch sentence you should write break!!!!
 
-~~~test
+~~~cmake
 include_directories(include) #包含头文件目录
-If you write this in you cmakeList, you do not need to write absolute routine
-just normal routine is ok. no: "../include/Servo.h" but "Servo.h"
+# If you write this in you cmakeList, you do not need to write absolute routine
+# just normal routine is ok. no: "../include/Servo.h" but "Servo.h"
 ~~~
