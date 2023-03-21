@@ -1,14 +1,12 @@
 # Explanation
 
-This is a demo about Servo Engine
-I wrote this in my Windows Laptop.
-So if run it in resperri pi, you should uncomment sth.
+This is a demo which can works in raspberry pi
 
 # Resperripi
 This has been moved to resperipi. And can work properly.
 
 ~~~text
-1. include<gpio>
+1. include<gpio.h>
 2. switch -----
 ~~~
 
