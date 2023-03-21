@@ -14,8 +14,8 @@ To cmake it in Windows
 
 ~~~cmake
 # in build folder
-cmake .. -G "MinGW Makefiles"
-mingw32-make
+cmake .. 
+make
 ~~~
 
 2023/03/21 18:03
