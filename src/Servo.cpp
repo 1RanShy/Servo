@@ -1,4 +1,4 @@
-// #include <pigpio>
+#include <pigpio.h>
 #include "../include/Servo.h"
 #include <iostream>
 using namespace std;

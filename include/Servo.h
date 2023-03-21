@@ -1,4 +1,4 @@
-// #include <pigpio>
+#include <pigpio.h>
 #include <iostream>
 #include <vector>
 
