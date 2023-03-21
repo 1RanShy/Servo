@@ -21,3 +21,9 @@ make
 2023/03/21 18:03
 
 remember that in switch sentence you should write break!!!!
+
+~~~test
+include_directories(include) #包含头文件目录
+If you write this in you cmakeList, you do not need to write absolute routine
+just normal routine is ok. no: "../include/Servo.h" but "Servo.h"
+~~~

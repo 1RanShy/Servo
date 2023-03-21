@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/shy/Desktop/Servo/include/Servo.h
+../include/Servo.h
 pigpio.h
 -
 iostream
@@ -17,8 +17,16 @@ vector
 /home/shy/Desktop/Servo/main.cpp
 pigpio.h
 -
-include/Servo.h
-/home/shy/Desktop/Servo/include/Servo.h
+Servo.h
+/home/shy/Desktop/Servo/Servo.h
+iostream
+-
+
+/home/shy/Desktop/Servo/src/Servo.cpp
+pigpio.h
+-
+Servo.h
+/home/shy/Desktop/Servo/src/Servo.h
 iostream
 -
 

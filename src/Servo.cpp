@@ -1,5 +1,5 @@
 #include <pigpio.h>
-#include "../include/Servo.h"
+#include "Servo.h"
 #include <iostream>
 using namespace std;
 
