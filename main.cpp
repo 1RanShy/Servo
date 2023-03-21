@@ -13,6 +13,10 @@ int main()
     }
     Servo servo1;
 
-    servo1.setAngle(45);
+    while(1){
+    
+        servo1.setAngle(135);
+    }
+
     return 0;
 }

@@ -22,11 +22,3 @@ include/Servo.h
 iostream
 -
 
-/home/shy/Desktop/Servo/src/Servo.cpp
-pigpio.h
--
-../include/Servo.h
-/home/shy/Desktop/Servo/include/Servo.h
-iostream
--
-

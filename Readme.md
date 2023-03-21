@@ -19,3 +19,7 @@ To cmake it in Windows
 cmake .. -G "MinGW Makefiles"
 mingw32-make
 ~~~
+
+2023/03/21 18:03
+
+remember that in switch sentence you should write break!!!!
