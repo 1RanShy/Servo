@@ -5,17 +5,21 @@ using namespace std;
 
 int main()
 {
-    if (gpioInitialise() < 0) {
+    if (gpioInitialise() < 0)
+    {
         cout << "Failed" << endl;
         return 0;
-    } else {
+    }
+    else
+    {
         cout << "PIGPIO is ready" << endl;
     }
     Servo servo1;
 
-    while(1){
-    
-        servo1.setAngle(0);
+    while (1)
+    {
+
+        servo1.setAngle(3, 0);
     }
 
     return 0;
