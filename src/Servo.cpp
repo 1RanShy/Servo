@@ -6,6 +6,7 @@ using namespace std;
 void Servo::setAngle(int pin, int angle)
 {
     // gpioServo(3, 500);   // choose  which pin to produce PWM for the Serco Engine
+    gpioSetMode(pin, PI_OUTPUT);
     switch (angle)
     {
     case 0:
